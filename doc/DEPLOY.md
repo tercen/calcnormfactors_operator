@@ -11,5 +11,5 @@ rm -r packrat && rm .Rprofile && R --vanilla -e "packrat::init(options = list(us
 ```
 
 ```
-git add -A && git commit -m "init" && git tag -a 0.0.1 -m "++" && git push && git push --tags
+git add -A && git commit -m "added packrat" && git tag -a 0.0.2 -m "++" && git push && git push --tags
 
