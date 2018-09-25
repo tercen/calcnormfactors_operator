@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+packrat/src
+workspace.R
+packrat/lib*/

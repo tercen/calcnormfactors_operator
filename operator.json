@@ -1,0 +1,12 @@
+{
+  "name": "calcnormfactors",
+  "description": "calculate normal factors",
+  "tags": ["normalization", "rnaseq"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/calcnormfactors_operator"],
+  "properties": [
+ 
+  ]
+}
+
+
