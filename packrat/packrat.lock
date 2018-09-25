@@ -1,5 +1,5 @@
 PackratFormat: 1.4
-PackratVersion: 0.4.9.12
+PackratVersion: 0.4.9.3
 RVersion: 3.3.3
 Repos: CRAN=https://cran.rstudio.com/,
     BioCsoft=https://bioconductor.org/packages/3.4/bioc,
@@ -115,17 +115,9 @@ Version: 1.0.1
 Hash: e04b8ed7b05c1f75aa81c65a086b1d0c
 
 Package: packrat
-Source: github
-Version: 0.4.9-12
-Hash: f3a87fde7eca2191e4fbb2b06d3583d2
-GithubRepo: packrat
-GithubUsername: rstudio
-GithubRef: master
-GithubSha1: cea6c235c335b31bd6d3f373ea1e9e29397eff0e
-RemoteHost: https://api.github.com
-RemoteRepo: packrat
-RemoteUsername: rstudio
-RemoteSha: cea6c235c335b31bd6d3f373ea1e9e29397eff0e
+Source: CRAN
+Version: 0.4.9-3
+Hash: 03fb817297975f1da0d1b774b47620b3
 
 Package: pillar
 Source: CRAN
@@ -175,11 +167,11 @@ GithubRepo: TSON
 GithubUsername: tercen
 GithubRef: 1.4.4-rtson
 GithubSha1: 01c0ff70ed30b7332f506403713158959492f8ca
+GithubSubdir: rtson
 RemoteHost: https://api.github.com
 RemoteRepo: TSON
 RemoteUsername: tercen
 RemoteSha: 01c0ff70ed30b7332f506403713158959492f8ca
-GithubSubdir: rtson
 
 Package: stringi
 Source: CRAN

@@ -2,7 +2,7 @@ library(tercen)
 library(dplyr)
 library(reshape2)
 library(tidyr)
-?library(edgeR)
+library(edgeR)
 
 data = (ctx = tercenCtx())  %>% 
   select(.ri, .ci, .y) %>% 
