@@ -11,5 +11,5 @@ rm -r packrat && rm .Rprofile && R --vanilla -e "packrat::init(options = list(us
 ```
 
 ```
-git add -A && git commit -m "packrat snapshot update" && git tag -a 0.0.3 -m "++" && git push && git push --tags
+git add -A && git commit -m "updated readme" && git tag -a 0.0.4 -m "++" && git push && git push --tags
 
