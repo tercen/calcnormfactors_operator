@@ -3,24 +3,28 @@
     "Version": "4.0.4",
     "Repositories": [
       {
+        "Name": "TERCEN",
+        "URL": "https://cran.tercen.com/api/v1/rlib/tercen"
+      },
+      {
         "Name": "CRAN",
-        "URL": "https://cran.rstudio.com"
+        "URL": "https://cran.tercen.com/api/v1/rlib/CRAN"
       },
       {
         "Name": "BioCsoft",
-        "URL": "https://bioconductor.org/packages/3.4/bioc"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCsoft-3.12"
       },
       {
         "Name": "BioCann",
-        "URL": "https://bioconductor.org/packages/3.4/data/annotation"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCann-3.12"
       },
       {
         "Name": "BioCexp",
-        "URL": "https://bioconductor.org/packages/3.4/data/experiment"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCexp-3.12"
       },
       {
-        "Name": "BioCextra",
-        "URL": "https://bioconductor.org/packages/3.4/extra"
+        "Name": "BioCworkflows",
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCworkflows-3.12"
       }
     ]
   },
@@ -86,14 +90,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "741c2e098e98afe3dc26a7b0e5489f4e",
-      "Requirements": []
-    },
-    "curl": {
-      "Package": "curl",
-      "Version": "4.3.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "022c42d49c28e95d69ca60446dbabf88",
       "Requirements": []
     },
     "dplyr": {
@@ -164,34 +160,12 @@
       "Hash": "de07842fc27ebf60e1102091c0c85e47",
       "Requirements": []
     },
-    "httr": {
-      "Package": "httr",
-      "Version": "1.4.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "a525aba14184fec243f9eaec62fbed43",
-      "Requirements": [
-        "R6",
-        "curl",
-        "jsonlite",
-        "mime",
-        "openssl"
-      ]
-    },
-    "jsonlite": {
-      "Package": "jsonlite",
-      "Version": "1.7.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "68c37fd8f863c6273dcd24928c17d6e1",
-      "Requirements": []
-    },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.20-45",
+      "Version": "0.20-41",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b64cdbb2b340437c4ee047a1f4c4377b",
+      "Hash": "fbd9285028b0263d76d18c95ae51a53d",
       "Requirements": []
     },
     "lifecycle": {
@@ -234,12 +208,12 @@
       "Hash": "cdc87ecd81934679d1557633d8e1fe51",
       "Requirements": []
     },
-    "mime": {
-      "Package": "mime",
-      "Version": "0.12",
+    "mtercen": {
+      "Package": "mtercen",
+      "Version": "1.0.8",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
+      "Repository": "TERCEN",
+      "Hash": "27b03b2685b9424f08521ea09d24860e",
       "Requirements": []
     },
     "openssl": {
@@ -301,10 +275,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.2",
+      "Version": "0.15.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "206c4ef8b7ad6fb1060d69aa7b9dfe69",
+      "Hash": "c38694b67e7f7091f7d073b3766258cc",
       "Requirements": []
     },
     "reshape2": {
@@ -326,22 +300,6 @@
       "Repository": "CRAN",
       "Hash": "3bf0219f19d9f5b3c682acbb3546a151",
       "Requirements": []
-    },
-    "rtson": {
-      "Package": "rtson",
-      "Version": "1.4.4",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteRepo": "TSON",
-      "RemoteUsername": "tercen",
-      "RemoteRef": "1.4.4-rtson",
-      "RemoteSha": "01c0ff70ed30b7332f506403713158959492f8ca",
-      "RemoteSubdir": "rtson",
-      "RemoteHost": "https://api.github.com",
-      "Hash": "6e1dc343d5f4e59a44da610ba0fdb8c1",
-      "Requirements": [
-        "R6"
-      ]
     },
     "stringi": {
       "Package": "stringi",
@@ -371,23 +329,26 @@
       "Hash": "b227d13e29222b4574486cfcbde077fa",
       "Requirements": []
     },
+    "teRcenHttp": {
+      "Package": "teRcenHttp",
+      "Version": "1.0.21",
+      "Source": "Repository",
+      "Repository": "TERCEN",
+      "Hash": "18e6c920fb7ddb33ea4e265098ca24c9",
+      "Requirements": []
+    },
     "tercen": {
       "Package": "tercen",
-      "Version": "0.7.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteRepo": "teRcen",
-      "RemoteUsername": "tercen",
-      "RemoteRef": "0.7.1",
-      "RemoteSha": "4f6cae07ca68202680409fb985db18be63a2e89a",
-      "RemoteHost": "https://api.github.com",
-      "Hash": "e31ad76bee9d7fd13dfb889244e300fd",
+      "Version": "0.10.8",
+      "Source": "Repository",
+      "Repository": "TERCEN",
+      "Hash": "7676dd098faf9b2267411f8f129f5d8b",
       "Requirements": [
         "R6",
         "dplyr",
-        "httr",
-        "jsonlite",
-        "rtson",
+        "mtercen",
+        "openssl",
+        "teRcenHttp",
         "tibble",
         "yaml"
       ]
