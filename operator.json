@@ -1,12 +1,16 @@
 {
   "name": "calcNormFactors",
   "description": "Calculate Normalization Factors: From the EdgeR package. It normalizes the data multiplied by a scaling factor based on a selected method. TMM, RLE or Upperquartile.",
-  "tags": ["normalization", "rnaseq"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/calcnormfactors_operator"],
-  "properties": [
- 
-  ]
+  "tags": [
+    "preprocessing",
+    "transformation",
+    "RNA-seq"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/calcnormfactors_operator"
+  ],
+  "properties": []
 }
-
-
