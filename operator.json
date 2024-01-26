@@ -1,6 +1,6 @@
 {
-  "name": "calcNormFactors",
-  "description": "Calculate Normalization Factors: From the EdgeR package. It normalizes the data multiplied by a scaling factor based on a selected method. TMM, RLE or Upperquartile.",
+  "name": "Normalisation Factors",
+  "description": "Performs normalisation of RNA sequencing data.",
   "tags": [
     "preprocessing",
     "transformation",
