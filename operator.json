@@ -36,7 +36,7 @@
             "name": "Sample",
             "type": "",
             "description": "Sample identifiers",
-            "ontologyMapping": "sample",
+            "ontologyMapping": "observation",
             "crosstabMapping": "column",
             "cardinality": "1..n",
             "factors": []
